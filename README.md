@@ -52,5 +52,5 @@ NOTE: After loading a CHIP-8 program, press 'G' to run it.
 
 ### TODO ###
 
-~ [ ] Modularise the JavaScript
-~ [ ] Add support for AZERTY (non-QWERTY) keyboard layout(s)
+- [ ] Modularise the JavaScript
+- [ ] Add support for AZERTY (non-QWERTY) keyboard layout(s)
