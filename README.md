@@ -1,8 +1,8 @@
 CHIP-5 -- an HTML5 CHIP-8 interpreter
 =====================================
 
-CHIP-5 is a [currently procedural] CHIP-8 interpreter utilising the
-HTML5 Canvas, File, and Web Audio APIs.
+CHIP-5 is a CHIP-8 interpreter utilising the HTML5 Canvas, File, and Web Audio
+APIs.
 
 Expect: future development effort to modularise (AMD) the core interpreter.
 
@@ -52,5 +52,5 @@ NOTE: After loading a CHIP-8 program, press 'G' to run it.
 
 ### TODO ###
 
-- [ ] Modularise the JavaScript
+- [x] Modularise the JavaScript
 - [ ] Add support for AZERTY (non-QWERTY) keyboard layout(s)
