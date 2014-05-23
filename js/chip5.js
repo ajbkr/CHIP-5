@@ -763,6 +763,10 @@ define('chip5', [], function() {
   Interpreter.prototype.go = function() {
     var that = this;
 
+    if (typeof this.timeout !== 'undefined') {
+      return;
+    }
+
     (function do_go() {
       var tick = 0;
 
