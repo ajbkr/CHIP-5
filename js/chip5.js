@@ -900,7 +900,7 @@ define('chip5', [], function() {
     el(         'sp').innerHTML = x2(this.sp);
 
     for (var n = 0; n < 16; ++n) {
-      el('v' + n).innerHTML = x2(this.v[n]) + ' (' +
+      el('v' + x1(n).toLowerCase()).innerHTML = x2(this.v[n]) + ' (' +
        ('___' + this.v[n]).slice(-3) + ')';
     }
   };
