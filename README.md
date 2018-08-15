@@ -48,7 +48,7 @@ NOTE: After loading a CHIP-8 program, press 'G' to run it.
 
 ### Play Now ###
 
-[Play](http://andrewjbaker.github.com/CHIP-5/)
+[Play](http://ajbkr.github.io/CHIP-5/)
 
 ### TODO ###
 

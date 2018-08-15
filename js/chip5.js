@@ -235,10 +235,7 @@ define('chip5', [], function() {
 
     var context = canvas.getContext('2d');
 
-    context.imageSmoothingEnabled        =
-     context.mozImageSmoothingEnabled    =
-     context.msImageSmoothingEnabled     =
-     context.webkitImageSmoothingEnabled = false;
+    context.imageSmoothingEnabled = false;
 
     this.context = context;
 
@@ -253,7 +250,7 @@ define('chip5', [], function() {
 
     this.hiddenContext = hiddenCanvas.getContext('2d');
 
-    this.audioContext = new webkitAudioContext();	// XXX webkit?!
+    this.audioContext = new AudioContext();
 
     var input = document.createElement('input');
     input.type = 'file';
